@@ -12,7 +12,7 @@ public class JavaExample2 {
 		
 		double totalPriceofProduct = productUnit *productPrice;
 		double totalwithVat = totalPriceofProduct * 1.07;
-		JOptionPane.showMessageDialog(null,"Total Price is "+totalPriceofProduct+" Baht ."+ " \nAdd VAT7% is " +totalwithVat+ " Baht. ");
+		JOptionPane.showMessageDialog(null,"Total Price is "+totalPriceofProduct+" Baht ."+ " \nAdd VAT 7% is " +totalwithVat+ " Baht. ");
 		
 
 	}
