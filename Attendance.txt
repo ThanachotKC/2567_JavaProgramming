@@ -1,4 +1,4 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:gitHub
-date:11/20/2024
+Topic:Display, Variable and Input
+date:11/27/2024
