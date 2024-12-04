@@ -1,32 +1,16 @@
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class Lab103 {
-    public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
-        
-        
-        String productName = JOptionPane.showInputDialog("Input time parking (minute): ");
-        int minutes = scanner.nextInt();
-        
-       
-        int hours = minutes / 60;  
-        int remainingMinutes = minutes % 60;  
-        
-        
-        double hourlyRate = 50.0;  
-        double minuteRate = 0.25;  
-        
-        
-        double totalCharge = (hours * hourlyRate) + (remainingMinutes * minuteRate);
-        
-        
-        JOptionPane.showMessageDialog(null,"Your Parking : " + hours + " hours " + remainingMinutes + " minutes.");
-        System.out.printf("Amount to be paid is : %.2f Baht\n", totalCharge);
-        
-        
-        scanner.close();
-    }
+	public static void main(String[] args) {
+		String minute_input = JOptionPane.showInputDialog(null, "Input Time Parking (minute)","Input",JOptionPane.QUESTION_MESSAGE);
+		
+		int minute = Integer.parseInt(minute_input);
+		int hour = minute / 60 ;
+		int total_min = minute % 60;
+		double  Amount_paid = hour * 50.25;
+		
+		
+		String message = "You parking "+ hour +" Hour "+total_min+" Minute." + "\nAmount to be paid is " + Amount_paid + " baht." ;
+		JOptionPane.showMessageDialog(null, message, "Message",JOptionPane.INFORMATION_MESSAGE);
+	}
 }
