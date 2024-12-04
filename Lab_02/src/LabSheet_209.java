@@ -1,5 +1,5 @@
-import java.util.*;
-public class LabSheet_203 {
+import java.util.Scanner;
+public class LabSheet_209 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class LabSheet_203 {
 			 
 			 System.out.printf("The salesperson's salary is : $%.2f%n%n",salary);
 		 }
-		 	System.out.println("BYE BYE");
+		 	System.out.println("bye");
 		 
 		 input.close();
 	}

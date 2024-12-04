@@ -28,6 +28,7 @@ public class LabSheet_201 {
 		}else if (isMember==JOptionPane.NO_OPTION);
 		JOptionPane.showMessageDialog(null, "Amount to be paid is "+ frm.format(totalPrice) + " baht.");
 				
+		
 
 	}
 
