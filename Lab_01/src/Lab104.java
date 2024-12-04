@@ -11,8 +11,9 @@ public class Lab104 {
 		double wage = Double.parseDouble(wageInput);
 		double grossEarning = hour * wage;
 		double taxRate = 0.15; 
-        	double tax = grossEarning * taxRate;
+        double tax = grossEarning * taxRate;
 		double netEarning = grossEarning - tax;
+		
 		String message = "Employee name: " + name + "\nHours worked:" + hour +"\nHourly wage:$" + wage +"\nGross earnings:$" + 
 		grossEarning +"\nTax rate" + taxRate +"\nTax:$" + tax +"\nNet earning" + netEarning;
 		JOptionPane.showMessageDialog(null, message, "Message", JOptionPane.INFORMATION_MESSAGE);
