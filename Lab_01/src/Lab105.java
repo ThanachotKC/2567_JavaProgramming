@@ -19,5 +19,6 @@ public class Lab105 {
 		cardPrice+"\nCD Quantity: "+
 		cardQuantity+"\n"+"\nSubtotal:$"+
 		cardSubtotal+"\nTax rate: "+Tax_rate* 100+"%"+"\nTotal:$"+cardTotal+"\n\nEnd of Program" ;
+		
 	}
 }

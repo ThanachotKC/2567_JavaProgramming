@@ -34,5 +34,6 @@ public class JavaExample1 {
 		System.out.println("Output using printf");
 		System.out.printf("Add VAT 7%%  is %,.2f ",  totalwithVat);		
 		input.close();
+		
 	}
 }

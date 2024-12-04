@@ -25,5 +25,6 @@ public class Lab102 {
         
         
         scanner.close();
+        
     }
 }

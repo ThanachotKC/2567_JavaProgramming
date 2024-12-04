@@ -26,6 +26,7 @@ public class Lab101 {
 		System.out.print("Amount to be paid "+"\t" +frm.format(Amount)+" baht.");
 		input.close();
 		
+		
 
 	}
 

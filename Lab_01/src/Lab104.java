@@ -17,5 +17,6 @@ public class Lab104 {
 		String message = "Employee name: " + name + "\nHours worked:" + hour +"\nHourly wage:$" + wage +"\nGross earnings:$" + 
 		grossEarning +"\nTax rate" + taxRate +"\nTax:$" + tax +"\nNet earning" + netEarning;
 		JOptionPane.showMessageDialog(null, message, "Message", JOptionPane.INFORMATION_MESSAGE);
+		
 	}
 }

@@ -12,5 +12,6 @@ public class Lab103 {
 		
 		String message = "You parking "+ hour +" Hour "+total_min+" Minute." + "\nAmount to be paid is " + Amount_paid + " baht." ;
 		JOptionPane.showMessageDialog(null, message, "Message",JOptionPane.INFORMATION_MESSAGE);
+		
 	}
 }

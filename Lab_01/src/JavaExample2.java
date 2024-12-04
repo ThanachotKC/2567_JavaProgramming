@@ -14,6 +14,7 @@ public class JavaExample2 {
 		double totalwithVat = totalPriceofProduct * 1.07;
 		JOptionPane.showMessageDialog(null,"Total Price is "+totalPriceofProduct+" Baht ."+ " \nAdd VAT 7% is " +totalwithVat+ " Baht. ");
 		
+		
 
 	}
 
