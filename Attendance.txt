@@ -1,4 +1,4 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:Control Statements and Confirm Dialog box
-date:12/04/2024
+Topic:String Method
+date:12/11/2024
