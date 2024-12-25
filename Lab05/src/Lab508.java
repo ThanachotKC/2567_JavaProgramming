@@ -22,7 +22,6 @@ public class Lab508 {
         JOptionPane.showMessageDialog(null, message);
     }
 
-    
     public static boolean checkIndex(int[] nums, int index) {
         return index >= 0 && index < nums.length;
     }

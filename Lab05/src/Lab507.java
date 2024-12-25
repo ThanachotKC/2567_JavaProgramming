@@ -20,7 +20,6 @@ public class Lab507 {
             }
         }
 
-        
         JOptionPane.showMessageDialog(null, "Even numbers: " + even.toString());
         JOptionPane.showMessageDialog(null, "Odd numbers: " + odd.toString());
     }
