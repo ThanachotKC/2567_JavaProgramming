@@ -1,4 +1,4 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:String Method
-date:12/11/2024
+Topic:Array and Array Method
+date:12/25/2024
