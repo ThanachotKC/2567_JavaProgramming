@@ -24,6 +24,7 @@ public class Lab501 {
         }
 
         
+        
         if (validItem) {
             JOptionPane.showMessageDialog(null, "Item " + itemOrder + " is $" + itemPrice);
             System.out.printf("Item %d is $%.2f%n", itemOrder, itemPrice);

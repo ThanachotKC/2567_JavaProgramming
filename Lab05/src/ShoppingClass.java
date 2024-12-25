@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class ShoppingCart {	
+public class ShoppingClass {	
 
 	public static void main(String[] args) {
 		// call Method displayCartItemAndTotal

@@ -17,6 +17,7 @@ public class Lab_501 {
 		}else {
 			JOptionPane.showMessageDialog(null, dept+ " was not found in the list");			
 		}
+		
 
 	}
 

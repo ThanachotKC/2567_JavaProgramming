@@ -13,6 +13,7 @@ public class Lab501_Method {
 		inputItem();		 
 	}//end of main() Method
 	
+	
 	public static void inputItem() {
 		//itemOrder เรียกว่า Local variable
 		int itemOrder = Integer.parseInt(
