@@ -1,4 +1,4 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:Class and Object
-date:01/15/2025
+Topic:Encapsulation Concept
+date:01/22/2025
