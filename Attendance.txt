@@ -1,4 +1,5 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:Encapsulation Concept
-date:01/22/2025
+Topic:- Inheritance  Concept
+      - Composition Concept
+date:02/05/2025
