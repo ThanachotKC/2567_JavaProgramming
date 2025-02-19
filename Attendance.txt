@@ -1,5 +1,5 @@
 studentId:2413111150
 studentName:Thanachot Kamcha
-Topic:- Inheritance  Concept
-      - Composition Concept
-date:02/05/2025
+Topic:- Inheritance Concept
+      - Abstract and Interface
+date:02/19/2025
