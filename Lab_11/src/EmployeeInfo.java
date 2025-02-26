@@ -17,7 +17,10 @@ public class EmployeeInfo {
 		objFile.insert();
 	}
 	if(choose.equals("search")) {
-		objFile.insert();
+		System.out.print("\nEnter dapartment: ");
+		String dept= input.next().toLowerCase();
+		objFile.setDept(dept);
+		objFile.searchData();
 	}
 }
 }

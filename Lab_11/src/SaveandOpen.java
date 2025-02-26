@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
+
 public class SaveandOpen extends Employee{
-	
 	private String name;
 	private String dept;
 	
@@ -13,14 +13,16 @@ public class SaveandOpen extends Employee{
 			super.header();
 			System.out.print("Enter name: ");
 			name = input.next();
-			System.out.print("Enter dapartment: ");
+			System.out.print("Enter department: ");
 			dept = input.next();
+			
 			writeFile.println(name+"\t"+dept);
-			System.out.print("Do yo want to input data again? : ");
+			
+			System.out.print("Do you want to input data again? : ");
 			answer = input.next();
 		}while(answer.equalsIgnoreCase("y"));
 	}
-	public void searchData() {
+	public void searchData()throws IOException {
 		try {
 			Scanner readFile = new Scanner(new File("src//txtFile//employee.txt"));
 			int i=0;
@@ -29,10 +31,29 @@ public class SaveandOpen extends Employee{
 			while(readFile.hasNext()) {
 				name = readFile.next();
 				dept = readFile.next();
-				
+				if(dept.equalsIgnoreCase(super.getDept())){
+					i++;
+					System.out.println(i+")"+ name);
+					check = true;
+				}
 			}
-		}catch(IOException e) {
+			if(check) {
+				super.header();
+				System.out.println("Employee in dept "+ super.getDept()+ " is "+i+" person(s).");
+				System.out.println();
+				super.header();
+			}else {
+				System.out.print("\nSorry, not found");
+			}
+		} catch (IOException e) {
 			System.out.print("\nSorry, file not found");
 		}
 	}
 }
+
+
+
+
+
+
+
