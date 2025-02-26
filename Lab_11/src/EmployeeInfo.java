@@ -21,6 +21,7 @@ public class EmployeeInfo {
 		String dept= input.next().toLowerCase();
 		objFile.setDept(dept);
 		objFile.searchData();
+		
 	}
 }
 }
